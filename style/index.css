@@ -106,6 +106,9 @@ nav a {
 }
 
 /* main section styles */
+main scction{
+    margin-top: 130px;
+}
 
 main {
     max-width: 1140px;
@@ -171,4 +174,26 @@ main section {
     color: #474747;
     font-size: 30px;
     font-weight: 800;
+}
+.resume-contenar {
+    display: flex;
+}
+.resume-contenar hr {
+    margin: 30px;
+}
+.resume-item-title{
+    color: #474747;
+    margin-bottom: 10px;
+}
+p.resume-item-description, .resume-item-institute{
+    color: #474747;
+}
+.resume-item-institute{
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+.btn-div {
+   
+    text-align: center;
+    margin-top: 50px;
 }
